@@ -5,11 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	int a;
-	
+	int min, sec;
+		
 	printf("input the second :");
 	scanf("%i", &a);
 	
-	printf("the time is %i : %i\n", a/60,a%60);
+	min=a/60;
+	sec=a%60;
+	
+	printf("the time is %i : %i\n", min, sec);
 	
 	
 	return 0;
